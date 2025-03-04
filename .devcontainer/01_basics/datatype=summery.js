@@ -40,10 +40,22 @@ console.log(typeof bigNumber);
 
 // ***********************************
 
-// Stack (Primitive), Heap(non-Primitive)
+ // Stack (Primitive), Heap(non-Primitive)
 
-let myYoutubename ="TushantSuryawanshi"
+ let myYoutubename ="TushantSuryawanshi"
 
-let anothername ="myYoutubename"
+ let anothername ="myYoutubename"
+ anothername = "chairaurcode"
 
-console.log(anothername);
+console.log(myYoutubename);
+ console.log(anothername);
+
+let user1 ={
+    email: "user23@gmail.com",
+    upi:"1121@paytm"
+}
+let user2 = user1
+user2.email =" tushant29@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email );
